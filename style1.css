@@ -1,0 +1,53 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 80px;
+	/* margin-top: 50px; */
+}
+
+.jumbotron{
+    background-color: #fdd460;
+    height: auto;
+}
+
+.jumbotron h3{
+    padding: 20px;
+    background-color: white;
+    font: 65px sans-serif;
+    font-weight: 700;
+    width: 100%;
+}
+
+.jumbotron a,
+.about a,
+.contact a{
+    color: black;
+}
+
+.jumbotron a:hover{
+    border-bottom: 1px solid black;
+}
+
+.contact a:hover,
+.jumbotron button a:hover{
+    color: white;
+}
+
+section {
+    min-height: 600px;
+}
+
+section img{
+    border-radius: 50%;
+}
+
+.contact {
+	min-height: auto;
+}
+
+.btn-primary a {
+	text-decoration: none;
+	color: white;
+}
